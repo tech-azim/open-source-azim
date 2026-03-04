@@ -149,6 +149,7 @@ export const portfolioData: PortfolioItem[] = [
       "Integrated MongoDB for flexible medical data storage",
     ],
   },
+
   {
     id: 5,
     slug: "bone-hris",
@@ -468,6 +469,38 @@ export const portfolioData: PortfolioItem[] = [
       "Created inventory tracking system with low-stock alerts",
       "Integrated AWS IoT Core for device communication and management",
       "Developed customer management features with purchase history",
+    ],
+  },
+  {
+    id: 18,
+    slug: "learnova",
+    company: "Freelance",
+    title: "Learnova",
+    description:
+      "Professional certification and training management platform for Indonesia's leading certification body, featuring course registration, competency assessment, and certification tracking for professionals.",
+    category: "education",
+    categoryLabel: "Education",
+    categoryColor: "",
+    year: "2026",
+    image: "/project/learnova_dashboard.png",
+    tags: ["Education", "Certification", "LMS"],
+    link: "https://learnovaconsultant.id",
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "Go",
+      "SHADCN UI",
+      "PostgreSQL",
+      "GORM",
+      "Gin",
+    ],
+    responsibilities: [
+      "Built professional certification management system using Next.js",
+      "Developed course and training registration flow for participants",
+      "Implemented competency assessment and scoring modules",
+      "Created certification tracking and digital certificate generation",
+      "Designed responsive UI using SHADCN UI components",
+      "Integrated MongoDB for flexible training and user data storage",
     ],
   },
 ];
