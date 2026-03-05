@@ -503,6 +503,38 @@ export const portfolioData: PortfolioItem[] = [
       "Integrated MongoDB for flexible training and user data storage",
     ],
   },
+  {
+    id: 9,
+    slug: "kopi-kita-crm",
+    company: "Personal Project",
+    title: "Kopi Kita CRM",
+    description:
+      "AI-powered mini CRM for a coffee shop. Features customer management, AI-generated weekly promo campaigns, semantic search chatbot using RAG, and a dashboard with top interest analytics.",
+    category: "fullstack",
+    categoryLabel: "Full Stack",
+    categoryColor: "brown",
+    image: "/project/kopikita.png",
+    year: "2026",
+    tags: ["Next.js", "AI", "Supabase", "Groq", "pgvector"],
+    link: "https://ai-global-promo-helper.vercel.app/",
+    technologies: [
+      "Next.js 15",
+      "TypeScript",
+      "Supabase",
+      "pgvector",
+      "Groq LLM",
+      "OpenRouter",
+      "Ant Design",
+    ],
+    responsibilities: [
+      "Built fullstack Next.js 15 app with JWT authentication and bcrypt password hashing",
+      "Designed Supabase schema with pgvector for semantic customer search",
+      "Implemented RAG chatbot — vector search + keyword fallback + LLM response",
+      "Engineered AI prompts for generating weekly promo themes with target segments and ready-to-send messages",
+      "Built dashboard with top interest analytics and campaign overview",
+      "Deployed to Vercel with environment variable management",
+    ],
+  },
 ];
 
 export const portfolioCategories = [
