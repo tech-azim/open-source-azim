@@ -92,7 +92,7 @@ export default function SupportCancel() {
               </p>
               <button
                 onClick={() =>
-                  window.open("https://github.com/BudAzimbud", "_blank")
+                  window.open("https://github.com/tech-azim", "_blank")
                 }
                 className="bg-[#F3F4F6] hover:bg-[#F3F4F6]/90 text-[#0F0F0F] px-4 py-2 rounded-lg transition-colors text-sm font-medium"
               >

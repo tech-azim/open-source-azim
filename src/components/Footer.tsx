@@ -16,7 +16,7 @@ const CONTACT_INFO = [
   { label: "Email", value: "budazimbud@gmail.com", href: "mailto:budazimbud@gmail.com" },
   { label: "WhatsApp", value: "+62 895-3234-96371", href: "https://wa.me/62895323496371" },
   { label: "LinkedIn", value: "Azim", href: "https://www.linkedin.com/in/azim-bud/" },
-  { label: "GitHub", value: "BudAzimbud", href: "https://github.com/BudAzimbud" },
+  { label: "GitHub", value: "BudAzimbud", href: "https://github.com/tech-azim" },
   { label: "Location", value: "Denpasar, Bali", href: null },
 ];
 
